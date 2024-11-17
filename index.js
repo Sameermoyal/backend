@@ -19,8 +19,6 @@ mongoose.connect(process.env.MONGO_URL)
    console.log("mongoDB  connected successfully")})
 .catch((err)=>console.log("eroooooooooor ",err))
 
-
-
 app.listen(port,()=>{
     console.log("app successfully running this port",{port})
 })
