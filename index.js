@@ -1,6 +1,8 @@
 const express=require('express')
 const mongoose=require('mongoose')
 require('dotenv').config()
+const bcrypt =require('bcrypt')
+const jst =require('jsonwebtoken')
 
 
 const app=express()
